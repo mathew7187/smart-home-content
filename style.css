@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+* { box-sizing: border-box;}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+section.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+
+section.col {
+    
+}
+
+section.col.half {
+    width: 47%;
+}
+
+section.col.one-third {
+    width: 30%;
+}
